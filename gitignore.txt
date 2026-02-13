@@ -1,0 +1,72 @@
+# Portfolio Website - .gitignore
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if you add build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (if you add build process)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Personal notes (you might want to keep notes privately)
+notes.txt
+todo.txt
+PRIVATE.md
+
+# Optional: Uncomment if you don't want to track your actual resume
+# assets/resume.pdf
+
+# Optional: Uncomment if you don't want to track your images
+# assets/images/
+
+# Optional: Keep personal data private during development
+# contact-submissions/

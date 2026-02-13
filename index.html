@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaithra Thota-Portfolio-Edge AI Engineer</title>
+    <meta name="description"
+        content="Technical portfolio showcasing hardware engineering expertise, embedded systems projects, and innovative solutions.">
+
+    <!-- Fonts - Using distinctive, professional typefaces -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Chaithra T</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="btn-resume" id="resumeBtn">
+                    <i class="fas fa-file-pdf"></i> Resume
+                </a>
+            </div>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-pattern"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Chaithra T</span>
+                </h1>
+                <p class="hero-subtitle">Edge AI Engineer</p>
+                <p class="hero-tagline">Engineering high-performance Edge AI systems with a focus on scalability and
+                    hardware efficiency.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am an Edge AI Engineer focused on designing and deploying intelligent computer vision systems
+                        directly on embedded and edge hardware. My work centers on building full-stack Smart AI IP
+                        Camera solutions that combine real-time video analytics, optimized inference pipelines, and
+                        tightly integrated hardware–software architectures for on-device intelligence.
+                    </p>
+                    <p>
+                        My experience lies in taking AI models from development to efficient edge deployment, ensuring
+                        they operate reliably under compute, memory, and power constraints. I work extensively on model
+                        optimization, embedded integration, and system performance tuning to achieve stable, low-latency
+                        inference in real-world environments. My goal is to enable scalable, efficient, and autonomous
+                        AI systems that operate independently at the edge.
+                    </p>
+
+                    <div class="philosophy">
+                        <h3>Technical Philosophy</h3>
+                        <p>
+                            I approach engineering with a systems-level mindset, balancing performance, power
+                            efficiency, and reliability. Every project begins with understanding platform limitations
+                            and performance goals, followed by structured optimization and validation. I believe in
+                            clean system architecture, continuous performance evaluation, and building solutions that
+                            are robust from prototype to deployment.
+                        </p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="assets/pofile.jpeg" alt="Chaithra T - Edge AI Engineer">
+                        </div>
+                        <div class="profile-contact">
+                            <a href="mailto:chaithratchaithra55@gmail.com" class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>chaithratchaithra55@gmail.com</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/t-chaithra-5652662b1/" target="_blank"
+                                class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                            <a href="https://github.com/TChaithra" target="_blank" class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub Portfolio</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Core Technical Competencies</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Hardware Skills -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="category-title">Hardware Engineering</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">PCB Design</span>
+                        <span class="skill-tag">Circuit Analysis</span>
+                        <span class="skill-tag">Schematic Capture</span>
+                        <span class="skill-tag">Signal Integrity</span>
+                        <span class="skill-tag">Power Management</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">Testing & Validation</span>
+                        <span class="skill-tag">ARM Cortex-M</span>
+                        <span class="skill-tag">FPGA Design</span>
+                        <span class="skill-tag">I2C/SPI/UART</span>
+                        <span class="skill-tag">CAN Bus</span>
+                        <span class="skill-tag">Ethernet</span>
+                    </div>
+                </div>
+
+                <!-- Software Skills -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="category-title">Software Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">VHDL/Verilog</span>
+                        <span class="skill-tag">Assembly</span>
+                        <span class="skill-tag">FreeRTOS</span>
+                        <span class="skill-tag">Linux Kernel</span>
+                        <span class="skill-tag">Device Drivers</span>
+                        <span class="skill-tag">Embedded Systems</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Unit Testing</span>
+                        <span class="skill-tag">Debugging</span>
+                    </div>
+                </div>
+
+                <!-- Tools Skills -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="category-title">Design & Simulation Tools</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Altium Designer</span>
+                        <span class="skill-tag">KiCad</span>
+                        <span class="skill-tag">Eagle</span>
+                        <span class="skill-tag">OrCAD</span>
+                        <span class="skill-tag">LTSpice</span>
+                        <span class="skill-tag">ModelSim</span>
+                        <span class="skill-tag">Vivado</span>
+                        <span class="skill-tag">MATLAB/Simulink</span>
+                        <span class="skill-tag">Oscilloscopes</span>
+                        <span class="skill-tag">Logic Analyzers</span>
+                        <span class="skill-tag">Multimeters</span>
+                        <span class="skill-tag">Spectrum Analyzers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-container">
+                <!-- Project: Smart AI IP Camera -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/smart.png" alt="Smart AI IP Camera Host Application">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/TChaithra/Trafic-inference-app" target="_blank"
+                                    class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"
+                                    onclick="document.getElementById('demoModal').style.display='flex'; document.getElementById('demoVideo').play(); return false;"><i
+                                        class="fas fa-play-circle"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">React/TypeScript</span>
+                            <span class="tag">TFLite</span>
+                            <span class="tag">GStreamer</span>
+                            <span class="tag">NXP i.MX8M+</span>
+                        </div>
+                        <h3 class="project-title">Smart AI IP Camera — Host Application</h3>
+                        <div class="project-framework">
+                            <div class="framework-item">
+                                <h4><i class="fas fa-exclamation-circle"></i> Problem</h4>
+                                <p>
+                                    Deploying multiple AI video analytics use cases (helmet detection, triple riding,
+                                    overspeed, driver monitoring) across edge devices required a unified platform
+                                    that could manage boards, cameras, models, and streams without per-model
+                                    custom infrastructure.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-cog"></i> Solution</h4>
+                                <p>
+                                    Built a full-stack Smart AI IP Camera platform with a React/TypeScript frontend
+                                    for orchestration, a Python Flask backend as the control plane, and a universal
+                                    stream process on each NXP i.MX8M+ board. The system is model-agnostic and
+                                    camera-agnostic — supporting dynamic model swap, camera swap, pause/resume,
+                                    GStreamer-based RTSP streaming, and NPU-accelerated TFLite inference.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-chart-line"></i> Impact</h4>
+                                <p>
+                                    Delivered a production-grade platform running <strong>5+ AI models</strong>
+                                    on edge hardware with dual-FPS monitoring (inference vs. UI), centralized
+                                    AI event storage, and process isolation. New models can be added
+                                    <strong>without modifying</strong> the streaming or control logic — enabling
+                                    rapid deployment of new use cases.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/800x500/1a1a1a/d4a574?text=IoT+Sensor+Network"
+                            alt="IoT Sensor Network Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">ARM Cortex-M4</span>
+                            <span class="tag">LoRaWAN</span>
+                            <span class="tag">FreeRTOS</span>
+                        </div>
+                        <h3 class="project-title">Low-Power IoT Sensor Network</h3>
+                        <div class="project-framework">
+                            <div class="framework-item">
+                                <h4><i class="fas fa-exclamation-circle"></i> Problem</h4>
+                                <p>
+                                    Agricultural client needed a cost-effective solution to monitor soil moisture,
+                                    temperature, and humidity across 50+ acres with minimal infrastructure. Traditional
+                                    WiFi-based solutions required frequent battery changes and had poor range.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-cog"></i> Solution</h4>
+                                <p>
+                                    Designed a custom PCB featuring an ARM Cortex-M4 MCU with LoRaWAN connectivity and
+                                    ultra-low-power sensor integration. Implemented adaptive sampling algorithms in C++
+                                    with
+                                    FreeRTOS, enabling nodes to intelligently adjust their duty cycle based on
+                                    environmental changes.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-chart-line"></i> Impact</h4>
+                                <p>
+                                    Reduced power consumption by <strong>65%</strong> compared to baseline design,
+                                    extending
+                                    battery life from 6 months to 2+ years. Successfully deployed <strong>120 sensor
+                                        nodes</strong>
+                                    across 3 farms, providing real-time data that improved irrigation efficiency by 30%.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/800x500/1a1a1a/d4a574?text=Motor+Controller"
+                            alt="Motor Controller Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-file-pdf"></i> Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">FPGA</span>
+                            <span class="tag">VHDL</span>
+                            <span class="tag">FOC</span>
+                            <span class="tag">Xilinx</span>
+                        </div>
+                        <h3 class="project-title">High-Performance BLDC Motor Controller</h3>
+                        <div class="project-framework">
+                            <div class="framework-item">
+                                <h4><i class="fas fa-exclamation-circle"></i> Problem</h4>
+                                <p>
+                                    Robotics application required precise motor control with sub-millisecond response
+                                    time
+                                    and minimal jitter. Existing MCU-based solutions couldn't meet the timing
+                                    requirements
+                                    while handling multiple motor control loops simultaneously.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-cog"></i> Solution</h4>
+                                <p>
+                                    Developed an FPGA-based Field-Oriented Control (FOC) system using VHDL on Xilinx
+                                    Artix-7.
+                                    Implemented parallel processing architecture with custom fixed-point arithmetic
+                                    units and
+                                    high-speed ADC interfaces for current sensing.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-chart-line"></i> Impact</h4>
+                                <p>
+                                    Achieved control loop update rate of <strong>50kHz</strong> with position accuracy
+                                    within
+                                    0.1 degrees. Reduced motor cogging torque by 40% and improved energy efficiency by
+                                    25%.
+                                    System now controls 6 motors simultaneously with deterministic performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/800x500/1a1a1a/d4a574?text=Signal+Processor"
+                            alt="Signal Processing Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">DSP</span>
+                            <span class="tag">Audio</span>
+                            <span class="tag">STM32</span>
+                        </div>
+                        <h3 class="project-title">Real-Time Audio Signal Processor</h3>
+                        <div class="project-framework">
+                            <div class="framework-item">
+                                <h4><i class="fas fa-exclamation-circle"></i> Problem</h4>
+                                <p>
+                                    Audio equipment manufacturer needed a compact, low-latency DSP solution for
+                                    professional
+                                    audio applications. Requirements included 4-channel processing with configurable
+                                    effects
+                                    chain and latency under 5ms.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-cog"></i> Solution</h4>
+                                <p>
+                                    Designed hardware using STM32H7 with dual ADC/DAC configuration and optimized
+                                    firmware
+                                    implementing FFT-based filtering, dynamic range compression, and parametric EQ in C.
+                                    Used CMSIS-DSP library with hand-optimized assembly for critical sections.
+                                </p>
+                            </div>
+                            <div class="framework-item">
+                                <h4><i class="fas fa-chart-line"></i> Impact</h4>
+                                <p>
+                                    Delivered total system latency of <strong>3.2ms</strong> while processing
+                                    96kHz/24-bit audio.
+                                    Achieved THD+N of -105dB and dynamic range of 120dB. Product launched successfully
+                                    with
+                                    <strong>2000+ units shipped</strong> in first year.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline">
+                    <!-- Experience Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - Present</span>
+                            <h3 class="timeline-title">Senior Hardware Engineer</h3>
+                            <p class="timeline-company">Tech Innovation Corp | San Francisco, CA</p>
+                            <ul class="timeline-details">
+                                <li>Lead hardware development for next-generation edge computing platforms, managing a
+                                    team of 4 engineers</li>
+                                <li>Designed and validated high-speed PCBs with DDR4 interfaces and multi-gigabit
+                                    Ethernet connectivity</li>
+                                <li>Reduced board bring-up time by 40% through improved design validation and simulation
+                                    workflows</li>
+                                <li>Collaborated with manufacturing partners in Asia to optimize designs for volume
+                                    production</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2019 - 2021</span>
+                            <h3 class="timeline-title">Hardware Engineer</h3>
+                            <p class="timeline-company">Embedded Solutions Inc | Austin, TX</p>
+                            <ul class="timeline-details">
+                                <li>Developed embedded systems for industrial automation and IoT applications</li>
+                                <li>Created firmware for STM32 and ESP32 platforms with focus on power optimization</li>
+                                <li>Performed EMC testing and design modifications to achieve FCC/CE compliance</li>
+                                <li>Mentored 2 junior engineers in PCB layout best practices and design reviews</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline">
+                    <!-- Education Item 1 -->
+                    <div class="timeline-item education">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2025</span>
+                            <h3 class="timeline-title">Bachelor of Technology in Computer Science and Engineering</h3>
+                            <p class="timeline-company">RGUKT IIIT Srikakulam | Andhra Pradesh, India</p>
+                            <ul class="timeline-details">
+                                <li>GPA: CGPA: 8.7/10.0</li>
+                                <li>Specialization: Artificial Intelligence and High-Performance Computing</li>
+                                <li>Relevant Expertise: Real-time Stream Processing, Hardware Benchmarking, and Linux
+                                    System Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 class="subsection-title">Certifications & Achievements</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <h4>Professional Engineer (PE) License</h4>
+                        <p>Electrical Engineering | State of California</p>
+                        <span class="cert-date">License #EE12345 | 2022</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                        <h4>Certified SOLIDWORKS Professional</h4>
+                        <p>Advanced Mechanical Design & Simulation</p>
+                        <span class="cert-date">CSWP Certification | 2021</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+                        <h4>Patent Holder</h4>
+                        <p>3 patents filed in power management and wireless communication</p>
+                        <span class="cert-date">USPTO | 2020-2023</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-medal"></i></div>
+                        <h4>IoT Hardware Design Award</h4>
+                        <p>Best Low-Power Design | IEEE Competition</p>
+                        <span class="cert-date">First Place | 2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-lead">
+                        Interested in collaborating on a project or discussing opportunities?
+                        I'd love to hear from you.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:chaithratchaithra55@gmail.com" class="contact-method">
+                            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="method-content">
+                                <h4>Email Me</h4>
+                                <p>chaithratchaithra55@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/t-chaithra-5652662b1/" target="_blank"
+                            class="contact-method">
+                            <div class="method-icon"><i class="fab fa-linkedin"></i></div>
+                            <div class="method-content">
+                                <h4>LinkedIn</h4>
+                                <p>Connect professionally</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/TChaithra" target="_blank" class="contact-method">
+                            <div class="method-icon"><i class="fab fa-github"></i></div>
+                            <div class="method-content">
+                                <h4>GitHub</h4>
+                                <p>View my open source work</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="project">Project Inquiry</option>
+                                <option value="job">Job Opportunity</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Chaithra T</h3>
+                    <p>Edge AI Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/t-chaithra-5652662b1/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/TChaithra" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:chaithratchaithra55@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chaithra T. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Demo Video Modal -->
+    <div id="demoModal"
+        style="display:none; position:fixed; inset:0; z-index:10000; background:rgba(0,0,0,0.9); align-items:center; justify-content:center; cursor:pointer;"
+        onclick="this.style.display='none'; document.getElementById('demoVideo').pause();">
+        <div style="position:relative; max-width:900px; width:90%; cursor:default;" onclick="event.stopPropagation();">
+            <button
+                onclick="document.getElementById('demoModal').style.display='none'; document.getElementById('demoVideo').pause();"
+                style="position:absolute; top:-40px; right:0; background:none; border:none; color:white; font-size:2rem; cursor:pointer; z-index:10001;">&times;</button>
+            <video id="demoVideo" controls
+                style="width:100%; border-radius:12px; box-shadow:0 8px 40px rgba(0,0,0,0.5);">
+                <source src="assets/smart_ip_demo.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

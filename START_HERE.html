@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Setup Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #d4a574 0%, #b8895f 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 3rem 2rem;
+        }
+        
+        h2 {
+            color: #d4a574;
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #d4a574;
+        }
+        
+        h2:first-child {
+            margin-top: 0;
+        }
+        
+        h3 {
+            color: #555;
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+        
+        p, li {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+        }
+        
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #d4a574;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .step h3 {
+            margin-top: 0;
+            color: #d4a574;
+        }
+        
+        code {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1.5rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #d4a574;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #b8895f;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #667eea;
+        }
+        
+        .btn-secondary:hover {
+            background: #5568d3;
+        }
+        
+        ul {
+            padding-left: 2rem;
+        }
+        
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .checklist li {
+            padding: 0.5rem 0 0.5rem 2rem;
+            position: relative;
+        }
+        
+        .checklist li::before {
+            content: '☐';
+            position: absolute;
+            left: 0;
+            color: #d4a574;
+            font-size: 1.2rem;
+        }
+        
+        .alert {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        
+        .alert-success {
+            background: #d4edda;
+            border-left-color: #28a745;
+        }
+        
+        .alert-info {
+            background: #d1ecf1;
+            border-left-color: #17a2b8;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 2rem;
+            text-align: center;
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            header {
+                padding: 2rem 1rem;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 2rem 1rem;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Portfolio Setup Guide</h1>
+            <p>Get your professional portfolio website up and running!</p>
+        </header>
+        
+        <div class="content">
+            <div class="alert alert-success">
+                <strong>✅ Good news!</strong> Your portfolio files are ready. Follow these steps to customize and deploy your site.
+            </div>
+            
+            <h2>📦 What's Included</h2>
+            <ul>
+                <li><code>index.html</code> - Main website structure</li>
+                <li><code>styles.css</code> - Complete styling</li>
+                <li><code>script.js</code> - Interactive functionality</li>
+                <li><code>README.md</code> - Detailed documentation</li>
+                <li><code>CUSTOMIZATION_CHECKLIST.md</code> - Step-by-step checklist</li>
+            </ul>
+            
+            <h2>🎯 Quick Start (5 Minutes)</h2>
+            
+            <div class="step">
+                <h3>Step 1: Test the Portfolio</h3>
+                <p>Open <code>index.html</code> in your web browser to see the template in action.</p>
+                <div class="button-group">
+                    <a href="index.html" class="btn">Open Portfolio</a>
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3>Step 2: Essential Customizations</h3>
+                <p>Open <code>index.html</code> in a text editor and update:</p>
+                <ul class="checklist">
+                    <li>Your name, title, and tagline (lines 51-53)</li>
+                    <li>Email addresses (search for "your.email@example.com")</li>
+                    <li>LinkedIn URL (search for "linkedin.com/in/yourprofile")</li>
+                    <li>GitHub URL (search for "github.com/yourusername")</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <h3>Step 3: Add Your Content</h3>
+                <ul>
+                    <li><strong>About Section:</strong> Write your bio and philosophy</li>
+                    <li><strong>Skills:</strong> List your technical competencies</li>
+                    <li><strong>Projects:</strong> Add 3-6 featured projects with Problem-Solution-Impact narratives</li>
+                    <li><strong>Experience:</strong> Include work history and education</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <h3>Step 4: Setup Images</h3>
+                <p>Create an <code>assets/images/</code> folder and add:</p>
+                <ul>
+                    <li>Professional headshot (400x400px)</li>
+                    <li>Project images (800x500px each)</li>
+                </ul>
+            </div>
+            
+            <h2>📋 Complete Customization</h2>
+            <p>For a detailed walkthrough of all customizations, check these resources:</p>
+            
+            <div class="button-group">
+                <a href="README.md" class="btn-secondary btn">📖 Read Full Documentation</a>
+                <a href="CUSTOMIZATION_CHECKLIST.md" class="btn-secondary btn">✅ View Checklist</a>
+            </div>
+            
+            <h2>🎨 Customization Tips</h2>
+            
+            <h3>Change Colors</h3>
+            <p>Edit CSS variables in <code>styles.css</code> (lines 5-23):</p>
+            <div class="code-block">:root {
+    --primary-color: #d4a574;    /* Your accent color */
+    --secondary-color: #1a1a1a;  /* Dark color */
+}</div>
+            
+            <h3>Change Fonts</h3>
+            <p>1. Pick fonts from <a href="https://fonts.google.com" target="_blank" style="color: #d4a574;">Google Fonts</a></p>
+            <p>2. Update the font link in <code>index.html</code> (line 12)</p>
+            <p>3. Update CSS variables in <code>styles.css</code> (lines 19-20)</p>
+            
+            <h3>Setup Contact Form</h3>
+            <p>Choose one of these free services:</p>
+            <ul>
+                <li><strong>FormSubmit:</strong> Visit <a href="https://formsubmit.co" target="_blank" style="color: #d4a574;">formsubmit.co</a></li>
+                <li><strong>Formspree:</strong> Visit <a href="https://formspree.io" target="_blank" style="color: #d4a574;">formspree.io</a></li>
+                <li><strong>Netlify Forms:</strong> Built-in if deploying to Netlify</li>
+            </ul>
+            <p>Update <code>script.js</code> with your chosen service (see README for details)</p>
+            
+            <h2>🚀 Deployment Options</h2>
+            
+            <h3>Recommended: Netlify</h3>
+            <ol>
+                <li>Create a GitHub account (if you don't have one)</li>
+                <li>Push your code to a GitHub repository</li>
+                <li>Sign up for <a href="https://netlify.com" target="_blank" style="color: #d4a574;">Netlify</a></li>
+                <li>Connect your GitHub repository</li>
+                <li>Deploy with one click!</li>
+            </ol>
+            
+            <h3>Alternative Options</h3>
+            <ul>
+                <li><strong>GitHub Pages:</strong> Free hosting at yourusername.github.io</li>
+                <li><strong>Vercel:</strong> Similar to Netlify, great for static sites</li>
+                <li><strong>Cloudflare Pages:</strong> Fast CDN with unlimited bandwidth</li>
+            </ul>
+            
+            <div class="alert alert-info">
+                <strong>💡 Pro Tip:</strong> Purchase a custom domain (yourname.com) for a more professional appearance. Most domain registrars cost $10-15/year.
+            </div>
+            
+            <h2>✅ Pre-Launch Checklist</h2>
+            <ul class="checklist">
+                <li>All personal information updated</li>
+                <li>Professional photo added</li>
+                <li>At least 3 projects documented</li>
+                <li>Contact form working</li>
+                <li>Resume PDF added and download button working</li>
+                <li>All links tested</li>
+                <li>Tested on mobile devices</li>
+                <li>No spelling/grammar errors</li>
+            </ul>
+            
+            <h2>📞 Need Help?</h2>
+            <p>If you get stuck:</p>
+            <ul>
+                <li>Check the <code>README.md</code> for detailed instructions</li>
+                <li>Review the <code>CUSTOMIZATION_CHECKLIST.md</code></li>
+                <li>Search online for specific issues (most are common and solved)</li>
+                <li>Check browser console (F12) for error messages</li>
+            </ul>
+            
+            <h2>🎓 Learning Resources</h2>
+            <ul>
+                <li><strong>HTML:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="color: #d4a574;">MDN Web Docs</a></li>
+                <li><strong>CSS:</strong> <a href="https://css-tricks.com" target="_blank" style="color: #d4a574;">CSS-Tricks</a></li>
+                <li><strong>JavaScript:</strong> <a href="https://javascript.info" target="_blank" style="color: #d4a574;">JavaScript.info</a></li>
+            </ul>
+            
+            <div class="alert">
+                <strong>⚠️ Important:</strong> Don't forget to update all placeholder content! Search for "your.email", "yourusername", and "Your Name" throughout the files.
+            </div>
+            
+            <div class="button-group" style="margin-top: 3rem;">
+                <a href="index.html" class="btn">🚀 View Your Portfolio</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Good luck with your portfolio! 🎉</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">Last updated: February 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
